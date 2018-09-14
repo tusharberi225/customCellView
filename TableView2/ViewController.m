@@ -18,20 +18,6 @@
     [super viewDidLoad];
    
 }
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-//{
-//
-//}
-//
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-//    UITableViewCell *cell= [tableView dequeueReusableCellWithIdentifier:@"cell"];
-//    if(cell==nil)
-//    {
-//        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
-//    }
-//
-//    return cell;
-//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
