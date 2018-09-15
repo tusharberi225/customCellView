@@ -15,6 +15,12 @@
 		088C6E9E214C3BCB00968D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 088C6E9D214C3BCB00968D94 /* main.m */; };
 		088C6EA8214C3BCB00968D94 /* TableView2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088C6EA7214C3BCB00968D94 /* TableView2Tests.m */; };
 		088C6EB3214C3BCB00968D94 /* TableView2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088C6EB2214C3BCB00968D94 /* TableView2UITests.m */; };
+		088C6EC5214CEEF900968D94 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 088C6EC4214CEEF900968D94 /* customCell.m */; };
+		088C6ECB214CF17400968D94 /* Image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088C6EC6214CF17300968D94 /* Image4.jpg */; };
+		088C6ECC214CF17400968D94 /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088C6EC7214CF17300968D94 /* Image2.jpg */; };
+		088C6ECD214CF17400968D94 /* Image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088C6EC8214CF17300968D94 /* Image3.jpg */; };
+		088C6ECE214CF17400968D94 /* Image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088C6EC9214CF17300968D94 /* Image5.jpg */; };
+		088C6ECF214CF17400968D94 /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088C6ECA214CF17400968D94 /* Image1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		088C6EAE214C3BCB00968D94 /* TableView2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableView2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		088C6EB2214C3BCB00968D94 /* TableView2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView2UITests.m; sourceTree = "<group>"; };
 		088C6EB4214C3BCB00968D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088C6EC3214CEEF900968D94 /* customCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		088C6EC4214CEEF900968D94 /* customCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		088C6EC6214CF17300968D94 /* Image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image4.jpg; path = "../../Download projects/Business App/Images/Image4.jpg"; sourceTree = "<group>"; };
+		088C6EC7214CF17300968D94 /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image2.jpg; path = "../../Download projects/Business App/Images/Image2.jpg"; sourceTree = "<group>"; };
+		088C6EC8214CF17300968D94 /* Image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image3.jpg; path = "../../Download projects/Business App/Images/Image3.jpg"; sourceTree = "<group>"; };
+		088C6EC9214CF17300968D94 /* Image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image5.jpg; path = "../../Download projects/Business App/Images/Image5.jpg"; sourceTree = "<group>"; };
+		088C6ECA214CF17400968D94 /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image1.jpg; path = "../../Download projects/Business App/Images/Image1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,13 @@
 				088C6E99214C3BCB00968D94 /* LaunchScreen.storyboard */,
 				088C6E9C214C3BCB00968D94 /* Info.plist */,
 				088C6E9D214C3BCB00968D94 /* main.m */,
+				088C6EC3214CEEF900968D94 /* customCell.h */,
+				088C6EC4214CEEF900968D94 /* customCell.m */,
+				088C6ECA214CF17400968D94 /* Image1.jpg */,
+				088C6EC7214CF17300968D94 /* Image2.jpg */,
+				088C6EC8214CF17300968D94 /* Image3.jpg */,
+				088C6EC6214CF17300968D94 /* Image4.jpg */,
+				088C6EC9214CF17300968D94 /* Image5.jpg */,
 			);
 			path = TableView2;
 			sourceTree = "<group>";
@@ -235,7 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088C6ECE214CF17400968D94 /* Image5.jpg in Resources */,
+				088C6ECC214CF17400968D94 /* Image2.jpg in Resources */,
+				088C6ECD214CF17400968D94 /* Image3.jpg in Resources */,
+				088C6ECB214CF17400968D94 /* Image4.jpg in Resources */,
 				088C6E9B214C3BCB00968D94 /* LaunchScreen.storyboard in Resources */,
+				088C6ECF214CF17400968D94 /* Image1.jpg in Resources */,
 				088C6E98214C3BCB00968D94 /* Assets.xcassets in Resources */,
 				088C6E96214C3BC900968D94 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +289,7 @@
 			files = (
 				088C6E93214C3BC900968D94 /* ViewController.m in Sources */,
 				088C6E9E214C3BCB00968D94 /* main.m in Sources */,
+				088C6EC5214CEEF900968D94 /* customCell.m in Sources */,
 				088C6E90214C3BC900968D94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

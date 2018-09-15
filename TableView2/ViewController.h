@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController<UITableViewDelegate , UITableViewDataSource>
 
-
+@property(strong,nonatomic)NSMutableArray *arrdata;
 
 @end
 
